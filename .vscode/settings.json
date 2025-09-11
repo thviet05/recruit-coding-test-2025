@@ -1,0 +1,31 @@
+{
+  // 保存時に自動フォーマット
+  "editor.formatOnSave": true,
+
+  // 既定のフォーマッタを Prettier に固定
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "on"
+  },
+
+  // 保存時に ESLint の自動修正＆Import の整理（任意）
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+
+  // 末尾改行・トリム
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+
+  // Prettier 設定の参照先
+  "prettier.configPath": ".prettierrc",
+  "prettier.useEditorConfig": false,
+
+  // ESLint 対象
+  "eslint.validate": ["javascript", "typescript"]
+}

@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+
+# Builds / TypeScript artifacts
+dist/
+*.tsbuildinfo
+
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# Coverage
+coverage/
+.nyc_output/
+coverage-final.json
+
+
+# Caches
+.eslintcache
+.cache/
+.tmp/
+.temp/
+.vite/
+.parcel-cache/
+.turbo/
+node_modules/.cache/
+
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+*.code-workspace
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+
+# Env files (keep example templates)
+.env
+.env.*
+!.env.example
+
+
+# Misc
+.node_repl_history
+*.pid
+*.pid.lock
+
+
+# Note: Do NOT ignore lockfiles intentionally. pnpm-lock.yaml should be committed when generated.

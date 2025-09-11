@@ -1,0 +1,48 @@
+# VCS
+.git
+.gitignore
+
+
+# Dependencies & stores
+node_modules
+.pnpm-store
+
+
+# Logs
+*.log
+logs
+
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+
+
+# Build outputs & caches
+dist
+coverage
+.nyc_output
+*.tsbuildinfo
+.cache
+.vite
+.parcel-cache
+.turbo
+tmp
+temp
+
+
+# Dev/CI metadata not needed for build context
+.devcontainer
+.github
+
+
+# Env files (keep example templates)
+.env
+.env.*
+!.env.example
+
+
+# Misc
+*.local
