@@ -14,8 +14,8 @@
 
   // 保存時に ESLint の自動修正＆Import の整理（任意）
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.organizeImports": true
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
   },
 
   // 末尾改行・トリム
