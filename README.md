@@ -25,16 +25,16 @@ repo/
   ├─ README.md
   └─ src/
       ├─ q1/
-      │ ├─ README.md
-      │ ├─ cli.ts
-      │ ├─ solve.ts
-      │ └─ solve.spec.ts
+      │   ├─ README.md
+      │   ├─ cli.ts
+      │   ├─ solve.ts
+      │   └─ solve.spec.ts
       └─ q2/
-      ├─ README.md
-      ├─ main.ts
-      ├─ core.ts
-      ├─ core.spec.ts
-      └─ sample.csv
+          ├─ README.md
+          ├─ main.ts
+          ├─ core.ts
+          ├─ core.spec.ts
+          └─ sample.csv
 ```
 
 ## Q1: 映画館の券売機（CLI）
