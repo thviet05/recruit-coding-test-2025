@@ -51,3 +51,9 @@ repo/
 ## テスト
 
 - `pnpm test` で公開テストが実行されます（初期は一部 `it.skip`）。
+
+## 最後に
+
+```
+“Great engineers explain their choices — and leave the code better than they found it.”
+```
