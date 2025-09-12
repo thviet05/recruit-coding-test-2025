@@ -20,7 +20,7 @@ repo/
   ├─ pnpm-lock.yaml
   ├─ tsconfig.json
   ├─ vitest.config.ts
-  ├─ .eslintrc.json
+  ├─ eslint.config.js
   ├─ .prettierrc
   ├─ README.md
   └─ src/
