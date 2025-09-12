@@ -93,7 +93,7 @@ const rankTop = (
     byDate.set(it.date, arr);
   }
   const out: typeof items = [];
-  for (const [date, arr] of byDate) {
+  for (const [, arr] of byDate) {
     arr.sort((a, b) => b.count - a.count || a.path.localeCompare(b.path));
     out.push(...arr.slice(0, top));
   }

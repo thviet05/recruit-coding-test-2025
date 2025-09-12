@@ -33,7 +33,7 @@ const main = async () => {
     rows.push(line);
   }
 
-  const result = aggregate(rows, { from, to, tz: tz as any, top });
+  const result = aggregate(rows, { from, to, tz: tz as never, top });
   stdout.write(JSON.stringify(result) + '\n');
 };
 

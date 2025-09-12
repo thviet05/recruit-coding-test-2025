@@ -39,7 +39,6 @@ export const solve = (input: string): string => {
   const endMinutes = calcEndMinutes(tickets[0]);
 
   const results: string[] = [];
-  let allOk = true;
 
   for (const t of tickets) {
     const reasons: string[] = [];
@@ -63,7 +62,6 @@ export const solve = (input: string): string => {
     if (reasons.length === 0) {
       results.push(`${PRICE[t.age]}円`);
     } else {
-      allOk = false;
       // 表示順の安定化（既に順序どおり push しているが保険で unique）
       results.push(uniqueStable(reasons).join(','));
     }
@@ -97,8 +95,8 @@ const parseLine = (line: string): Ticket | null => {
   if (col < 1 || col > 24) return null;
 
   return {
-    age: ageRaw as any,
-    rating: ratingRaw as any,
+    age: ageRaw as never,
+    rating: ratingRaw as never,
     startHH,
     startMM,
     durH,
