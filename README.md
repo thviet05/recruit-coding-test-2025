@@ -1,7 +1,12 @@
 # Coding Test 2025
 
 - Fork して小さなコミットで開発し、PR を作成してください。
-- Node 20 / pnpm 推奨。DevContainer は任意です。
+- Node 20 / pnpm 推奨
+- `.devcontainer`フォルダがありますが、DevContainerを使わなくてもコーディングは可能です
+  - DevContainerの情報については[ドキュメント](https://containers.dev/)を参照してください
+  - DevContainerを使う場合は以下の環境を用意してください
+    - [WSL(Windows Subsystem for Linux)](https://learn.microsoft.com/ja-jp/windows/wsl/install)
+    - Vscodeの拡張機能[Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 - CI は `typecheck`/`lint`/`test`/`docker build` を実行します。
 
 # ディレクトリ構成
