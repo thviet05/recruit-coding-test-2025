@@ -57,6 +57,7 @@ repo/
 ## 連絡先
 
 コーディングテストに関して不明点があったら、以下に連絡をしてください。
+
 email: pgtest@mlist.sbs-infosys.co.jp
 
 ## 最後に
